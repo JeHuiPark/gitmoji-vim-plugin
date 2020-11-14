@@ -17,7 +17,7 @@ function! GetGitmoji()
     if record =~ '^"'
       continue
     endif
-    let cols = split(record)
+    let cols = split(record, '|')
     call add(popupDatas, cols[0] . ' [' . cols[1] . ']')
     call add(s:emojiList, cols[0])
   endfor

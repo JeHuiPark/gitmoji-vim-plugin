@@ -28,8 +28,7 @@ let g:gitmoji_config_path = '~/.vim/gitmoji_config'
 
 ### Config File Format
 ```
-emoji description
-📖 documentation
-🔧 fix 
+📖|documentation
+🔧|fix 
 ```
 
